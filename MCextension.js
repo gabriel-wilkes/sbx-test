@@ -26,7 +26,7 @@
     };
 
     ext.teleport = function(str, teleportTypes, x, y, z) {
-        var cmdUrl = "http://localhost:8088/teleport/" + encodeURIComponent(str)+ "/" teleportTypes + "/" x + "/" + y + "/" + z;
+        var cmdUrl = "http://localhost:8088/teleport/" + encodeURIComponent(str)+ "/" teleportTypes + "/" + x + "/" + y + "/" + z;
         $.ajax({
             type: "GET",
             url: cmdUrl,
