@@ -44,7 +44,7 @@
     var descriptor = {
         blocks: [
 			[" ", "Connect User %s", "connect","playerName"],
-			[" ", "Teleport %s  %m.teleportTypes  x: %n y: %n z: %n", "teleport","playerName", "at"],
+			[" ", "Teleport %s  %m.teleportTypes  x: %n y: %n z: %n", "teleport","playerName", "at", 0, 0 ,0],
         ],
         menus: {
 		teleportTypes: ["at", "offset", "to_drone"]
