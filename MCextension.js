@@ -25,7 +25,7 @@
         }); // nb: GET is including the javascript callback. Do I need this for one-way call?
     };
 
-    ext.teleport = function(x, y, z) {
+    ext.teleport = function(str, teleportTypes, x, y, z) {
         var cmdUrl = "http://localhost:8088/teleport/" + encodeURIComponent(str)+ "/" teleportTypes + "/" x + "/" + y + "/" + z;
         $.ajax({
             type: "GET",
